@@ -1,34 +1,29 @@
-
-/** {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
-
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 500vh;
-  background: floralwhite;
-  background: url;
 }
-*/
 
 
-/*header {
+.all {
+  color: #066035;
+  text-align: left;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 100px;
-  background: black; 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 99;
-}*/
+  margin-left: 15vw;
+  margin-top: 25vh;
+}
+
+.all p{
+  font-size: 2.1vw;
+}
+
+.all h1{
+  margin-top: 35px;
+}
 
 .logo {
   font-size: 2em;
@@ -36,57 +31,34 @@ body {
   user-select: none;
 }
 
-.nav a{
-  position: relative;
-  font-optical-sizing: 1.1em;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-  margin-left: 40px;
-}
-
-.nav a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 100%;
-  height: 3px;
-  background: #fff;
-  border border-radius: 5px;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform .5s;
-}
-
-.nav a:hover::after {
-  transform-origin: left;
-  transform: scaleX(1);
-}
-
-.nav .btnLogin-popup {
-  width: 130px;
-  height: 50px;
-  background: transparent;
-  border: 2px solid #fff;
+.btnLogin-popup {
+  width: 100px;
+  height: 2.5vw;
+  position: fixed;
+  background: #066035;
+  border: 1px solid #066035;
   outline: none;
   border-radius: 6px;
   cursor: pointer;
   font-size: 1.1em;
   color: #fff;
-  font-weight: 500;
-  margin-left: 40px;
-  transition: .5s;
+  font-weight: 200;
+  margin-top: 20px;
+  margin-left: 0px;
+  font-size: 0.8em;
+  text-decoration: none;
+
 }
 
-.nav .btnLogin-popup:hover {
-  background: #fff;
+.btnLogin-popup:hover {
+  background: #508F71;
   color: #162938;
 }
 
 
 .logRegForm {
   position: relative;
+  margin-left: 50px;
   width: 400px;
   height: 440px;
   background: transparent;
@@ -143,7 +115,7 @@ body {
   right: 0;
   width: 45px;
   height: 45px;
-  background: black;
+  background: rgba(75, 75, 56, .5);
   font-size: 2em;
   color: white;
   display: flex;
@@ -262,4 +234,34 @@ body {
 
 .login-register p a:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 0px max-width: 480px){
+  .header {
+    font-size: 0vw;
+  }
+}
+
+@media (min-width: 481px){
+  .header {
+    font-size: 0vw;
+  }
+}
+
+@media (min-width: 769px){
+  .header {
+    font-size: 0vw;
+  }
+}
+
+@media (min-width: 1025px){
+  .header {
+    font-size: 1vw;
+  }
+}
+
+@media (min-width: 1201px){
+    .header {
+    font-size: 1.5vw;
+  }
 }
