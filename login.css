@@ -1,105 +1,221 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
+
 }
-body{
-  background: #1abc9c;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: floralwhite;
+}
+
+/*LOGO*/
+
+.top {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: 10%;
+  background: transparent; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.top img {
+  height: 175px;
+}
+
+/*TITLE*/
+
+.title {
+  display: inline;
+  float: right;
+  right: ;
+}
+
+.title h1{
+  color: #36603b;
+  position: relative;
+  text-align: justify;
+  top: 10em;
+  left: ;
+  width: 100%;
+  height: 10%;
+}
+
+.title span{
+  color: #36603b;
+  position: absolute;
+  font-weight: 100;
+  font-size: 80%;
+  padding-top: 12px;
+}
+
+/*WRAPPER*/
+
+.wrapper {
+  float: left;
+  position: relative;
+  width: 35%;
+  height: 100vh;
+  background: rgba(255, 255, 255, .01);
+  border: 2px dashed rgba(255, 255, 255, .05);
+  backdrop-filter: blur(25px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
-.container{
-  max-width: 440px;
-  padding: 0 20px;
-  margin: 170px auto;
+.wrapper.active {
+
 }
-.wrapper{
+
+.wrapper .form-box {
   width: 100%;
-  background: #fff;
-  border-radius: 5px;
+  padding: 40px;
 }
-.wrapper .title{
-  height: 90px;
-  background: #16a085;
-  border-radius: 5px 5px 0 0;
-  color: #fff;
-  font-size: 30px;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.wrapper .form-box.login {
+  transition: transform .18s ease;
+  transform: translateX(0);
 }
-.wrapper form{
-  padding: 30px 25px 25px 25px;
+
+.wrapper.active .form-box.login {
+  transition: none;
+  content-visibility: hidden;
+
+  transform:  translateX(-400px);
 }
-.wrapper form .row{
-  height: 45px;
-  margin-bottom: 15px;
-  position: relative;
-}
-.wrapper form .row input{
-  height: 100%;
-  width: 100%;
-  outline: none;
-  padding-left: 60px;
-  border-radius: 5px;
-  border: 1px solid lightgrey;
-  font-size: 16px;
-  transition: all 0.3s ease;
-}
-form .row input:focus{
-  border-color: #16a085;s
-}
-form .row input::placeholder{
-  color: #999;
-}
-.wrapper form .row i{
+
+.wrapper .form-box.register {
   position: absolute;
-  width: 47px;
+  transition: none;
+  content-visibility: hidden;
+  transform: translateX(400px);
+}
+
+.wrapper.active .form-box.register {
+  transition: transform .18s ease;
+  content-visibility: visible;
+  transform: translateX(0);
+}
+
+
+/*FORM BOX*/
+
+.form-box h2 {
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid white;
+  margin: 30px 0;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: black;
+  font-weight: 500;
+  pointer-events: none;
+  transition: .4s;
+}
+
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+  display: none;
+}
+
+.input-box input:blur~label,
+.input-box input:invalid~label {
+  display: none;
+}
+
+.input-box input {
+  width: 100%;
   height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
   color: #fff;
-  font-size: 18px;
-  background: #16a085;
-  border: 1px solid #16a085;
-  border-radius: 5px 0 0 5px;
+  font-weight: 600;
+  padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: #fff;
+  line-height: 57px;
+}
+
+.remember-forgot {
+  font-size: .9em; 
+  color: #fff;
+  font-weight: 500;
+  margin: -15px 0 15px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
-.wrapper form .pass{
-  margin: -8px 0 20px 0;
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
 }
-.wrapper form .pass a{
-  color: #16a085;
-  font-size: 17px;
+
+.remember-forgot a {
+  color: #fff;
   text-decoration: none;
 }
-.wrapper form .pass a:hover{
+
+.remember-forgot a:hover {
   text-decoration: underline;
 }
-.wrapper form .button input{
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  padding-left: 0px;
-  background: #16a085;
-  border: 1px solid #16a085;
+
+.btn {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 6px;
   cursor: pointer;
+  color: black;
+  font-weight: 500;
 }
-form .button input:hover{
-  background: #12876f;
-}
-.wrapper form .signup-link{
+
+.login-register {
+  font-size: .9em;
+  color: black;
   text-align: center;
-  margin-top: 20px;
-  font-size: 17px;
+  font-weight: 500;
+  margin: 25px 0 10px;
 }
-.wrapper form .signup-link a{
-  color: #16a085;
+
+.login-register p a {
+  color: black;
   text-decoration: none;
+  font-weight: 600;
 }
-form .signup-link a:hover{
+
+.login-register p a:hover {
   text-decoration: underline;
 }
