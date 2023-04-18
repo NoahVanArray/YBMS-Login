@@ -1,5 +1,5 @@
 
-* {
+/** {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,14 +10,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 500vh;
   background: floralwhite;
   background: url;
 }
+*/
 
 
-
-header {
+/*header {
   position: fixed;
   top: 0;
   left: 0;
@@ -28,7 +28,7 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 99;
-}
+}*/
 
 .logo {
   font-size: 2em;
@@ -85,7 +85,7 @@ header {
 }
 
 
-.wrapper {
+.logRegForm {
   position: relative;
   width: 400px;
   height: 440px;
@@ -102,42 +102,42 @@ header {
   transition: transform .3s ease, height .2s ease;
 }
 
-.wrapper.active-popup {
+.logRegForm.active-popup {
   transform: scale(1);
   transition: transform .18s ease;
 }
 
-.wrapper.active {
+.logRegForm.active {
   height: 520px;
 }
 
-.wrapper .form-box {
+.logRegForm .form-box {
   width: 100%;
   padding: 40px;
 }
 
-.wrapper .form-box.login {
+.logRegForm .form-box.login {
   transition: transform .18s ease;
   transform: translateX(0);
 }
 
-.wrapper.active .form-box.login {
+.logRegForm.active .form-box.login {
   transition: none;
   transform:  translateX(-400px);
 }
 
-.wrapper .form-box.register {
+.logRegForm .form-box.register {
   position: absolute;
   transition: none;
   transform: translateX(400px);
 }
 
-.wrapper.active .form-box.register {
+.logRegForm.active .form-box.register {
   transition: transform .18s ease;
   transform: translateX(0);
 }
 
-.wrapper .icon-close {  
+.logRegForm .icon-close {  
   position: absolute;
   top: 0;
   right: 0;

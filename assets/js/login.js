@@ -2,7 +2,7 @@
 	Author: John Yohan J. Navarra
 */
 
-const wrapper = document.querySelector('.wrapper');
+const wrapper = document.querySelector('.logRegForm');
 const loginLink = document.querySelector('.login-link');
 const registerLink = document.querySelector('.register-link');
 const btnPopup = document.querySelector('.btnLogin-popup');
