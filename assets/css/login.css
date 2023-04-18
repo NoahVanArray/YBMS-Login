@@ -17,11 +17,17 @@ body {
   margin-top: 25vh;
 }
 
-.all p{
+.all img {
+  float: left; 
+  margin-left: -12vw; 
+  width: 25vw;
+}
+
+.all p {
   font-size: 2.1vw;
 }
 
-.all h1{
+.all h1 {
   margin-top: 35px;
 }
 
@@ -58,7 +64,8 @@ body {
 
 .logRegForm {
   position: relative;
-  margin-left: 50px;
+  margin-top: 24vh;
+  margin-right: 20vw;
   width: 400px;
   height: 440px;
   background: transparent;
