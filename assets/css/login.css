@@ -156,6 +156,7 @@ body {
 .input-box label {
   position: absolute;
   top: 50%;
+  margin-bottom: 100px;
   left: 5px;
   transform: translateY(-50%);
   font-size: 1em;
@@ -168,11 +169,6 @@ body {
 
 .input-box input:focus~label,
 .input-box input:valid~label {
-  display: none;
-}
-
-.input-box input:blur~label,
-.input-box input:invalid~label {
   display: none;
 }
 
@@ -496,7 +492,7 @@ body {
 
 
 /*For phones*/
-@media (max-width: 1080px){
+@media (max-width: 500px){
   .all {
   color: #066035;
   text-align: left;
@@ -690,7 +686,7 @@ body {
 
 
 /*For not phones*/
-@media (min-width: 1081px){
+@media (min-width: 900px){
 .all {
   color: #066035;
   text-align: left;
