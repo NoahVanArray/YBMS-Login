@@ -23,3 +23,14 @@ btnPopup.addEventListener('click', ()=> {
 iconClose.addEventListener('click', ()=> {
 	wrapper.classList.remove('active-popup');
 });
+
+
+// Removes the "Email" word upon leaving that textbox
+let x = document.getElementById("eMail");
+if (document.getElementById("eMail") != null) { 
+	x.addEventListener("onblur", myBlurFunction); 
+}
+
+function myBlurFunction() {
+  document.getElementById("eMail").label.style.color = "transparent";  
+}

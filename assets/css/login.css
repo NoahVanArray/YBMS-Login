@@ -156,6 +156,7 @@ body {
 .input-box label {
   position: absolute;
   top: 50%;
+  margin-bottom: 100px;
   left: 5px;
   transform: translateY(-50%);
   font-size: 1em;
@@ -168,11 +169,6 @@ body {
 
 .input-box input:focus~label,
 .input-box input:valid~label {
-  display: none;
-}
-
-.input-box input:blur~label,
-.input-box input:invalid~label {
   display: none;
 }
 
@@ -496,13 +492,13 @@ body {
 
 
 /*For phones*/
-@media (max-width: 1080px){
+@media (max-width: 500px){
   .all {
   color: #066035;
   text-align: left;
   position: fixed;
-  margin-left: 25vw;
-  margin-top: 26vh;
+  margin-left: 15vw;
+  margin-top: 30vh;
 }
 
 .all img {
@@ -526,7 +522,7 @@ body {
 
 /*The button for "login"*/
 .btnLogin-popup {
-  width: 40%;
+  width: 30%;
   height: 2.5vh;
   position: fixed;
   background: #066035;
@@ -538,7 +534,7 @@ body {
   color: #fff;
   font-weight: 200;
   margin-top: 2vh;
-  margin-left: -13%;
+  margin-left: -9%;
   font-size: 2.5vw;
   text-decoration: none;
 
@@ -564,12 +560,12 @@ body {
   transition: transform .3s ease, height .2s ease;
 }
 .logRegForm.active {
-  height: 520px;
+  height: 85vh;
 }
 
 .logRegForm .form-box {
   width: 60vw;
-  padding: 0vw;
+  padding: 5vw;
 }
 .logRegForm .icon-close {  
   position: absolute;
@@ -690,7 +686,7 @@ body {
 
 
 /*For not phones*/
-@media (min-width: 1081px){
+@media (min-width: 900px){
 .all {
   color: #066035;
   text-align: left;
