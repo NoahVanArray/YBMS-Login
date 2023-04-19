@@ -251,7 +251,7 @@ body {
 
 
 /*For phones*/
-@media (max-width: 400px){
+@media (min-width: 400px){
   .all {
   color: #066035;
   text-align: left;
