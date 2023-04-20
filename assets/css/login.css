@@ -9,7 +9,7 @@ body {
 }
 
 
-.all {
+/*.all {
   color: #066035;
   text-align: left;
   position: fixed;
@@ -17,7 +17,7 @@ body {
   margin-top: 25vh;
 }
 
-.all img {
+#img1 {
   float: left; 
   margin-left: -12vw; 
   width: 25vw;
@@ -31,15 +31,11 @@ body {
 .all h1 {
   margin-top: 35px;
 }
+*/
 
-.logo {
-  font-size: 2em;
-  color: #fff;
-  user-select: none;
-}
 
 /*The button for "login"*/
-.btnLogin-popup {
+/*.btnLogin-popup {
   width: 100px;
   height: 2.5vw;
   position: fixed;
@@ -56,7 +52,7 @@ body {
   font-size: 0.8em;
   text-decoration: none;
 
-}
+}*/
 
 /*Just changes the color of the button on hover*/
 .btnLogin-popup:hover {
@@ -66,7 +62,7 @@ body {
 }
 
 /*The login/Registration form that can pop-up*/
-.logRegForm {
+/*.logRegForm {
   position: relative;
   margin-top: 24vh;
   margin-right: 25vw;
@@ -84,7 +80,7 @@ body {
   align-items: center;
   overflow: hidden;
   transition: transform .3s ease, height .2s ease;
-}
+}*/
 
 
 .logRegForm.active-popup {
@@ -92,14 +88,14 @@ body {
   transition: transform .18s ease;
 }
 
-.logRegForm.active {
+/*.logRegForm.active {
   height: 520px;
 }
 
 .logRegForm .form-box {
   width: 50vw;
   padding: 40px;
-}
+}*/
 
 .logRegForm .form-box.login {
   transition: transform .18s ease;
@@ -122,7 +118,7 @@ body {
   transform: translateX(0);
 }
 
-.logRegForm .icon-close {  
+/*.logRegForm .icon-close {  
   position: absolute;
   top: 0;
   right: 0;
@@ -164,15 +160,14 @@ body {
   font-weight: 500;
   pointer-events: none;
   transition: .4s;
-}
-
+}*/
 
 .input-box input:focus~label,
 .input-box input:valid~label {
   display: none;
 }
 
-.input-box input {
+/*.input-box input {
   width: 100%;
   height: 100%;
   background: transparent;
@@ -209,13 +204,13 @@ body {
 .remember-forgot a {
   color: black;
   text-decoration: none;
-}
+}*/
 
 .remember-forgot a:hover {
   text-decoration: underline;
 }
 
-.btn {
+/*.btn {
   width: 100%;
   height: 45px;
   background: black;
@@ -239,7 +234,7 @@ body {
   color: black;
   text-decoration: none;
   font-weight: 600;
-}
+}*/
 
 .login-register p a:hover {
   text-decoration: underline;
@@ -251,50 +246,51 @@ body {
 
 
 /*For phones*/
-@media (min-width: 400px){
-  .all {
+@media (max-width: 500px){
+
+#img1 {
+  width: auto;
+  height: 190px;
+  margin-top: 30vh;
+  margin-left: 16vw;
+}
+
+.all {
   color: #066035;
   text-align: left;
-  position: fixed;
-  margin-left: 15vw;
+  margin-left: 5vw;
   margin-top: 30vh;
-}
-
-.all img {
-  float: left; 
-  margin-left: -12vw; 
-  width: 35vw;
-  margin-top: 5vh;
-}
-
-.all p {
-  font-size: 4vw;
-  margin-left: -15vw;
+  padding-right: 25vw;
 }
 
 .all h1 {
-  font-size: 6vw;
-  margin-top: 35px;
-  margin-left: -15vw;
+  position: absolute;
+  font-size: 30px;
 }
+
+.all p {
+  margin-top: 110px;
+  position: absolute;
+  font-size: 19px;
+}
+
 
 
 /*The button for "login"*/
 .btnLogin-popup {
-  width: 30%;
-  height: 2.5vh;
-  position: fixed;
+  width: 38.4%;
+  height: 3.5vh;
+  position: absolute;
   background: #066035;
   border: 1px solid #066035;
+  padding-top: 0.2vh;
   outline: none;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
-  font-size: 25px;
   color: #fff;
   font-weight: 200;
-  margin-top: 2vh;
-  margin-left: -9%;
-  font-size: 2.5vw;
+  margin-top: 25.5vh;
+  font-size: 12px;
   text-decoration: none;
 
 }
@@ -444,195 +440,6 @@ body {
 /*SIGN*/
 
 
-/*For not phones*/
-@media (min-width: 900px){
-.all {
-  color: #066035;
-  text-align: left;
-  position: fixed;
-  margin-left: 15vw;
-  margin-top: 25vh;
-}
 
-.all img {
-  float: left; 
-  margin-left: -12vw; 
-  width: 25vw;
-  margin-top: 8vh;
-}
-
-.all p {
-  font-size: 2.1vw;
-}
-
-.all h1 {
-  margin-top: 35px;
-}
-
-.logo {
-  font-size: 2em;
-  color: #fff;
-  user-select: none;
-}
-
-/*The button for "login"*/
-.btnLogin-popup {
-  width: 100px;
-  height: 2.5vw;
-  position: fixed;
-  background: #066035;
-  border: 1px solid #066035;
-  outline: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 25px;
-  color: #fff;
-  font-weight: 200;
-  margin-top: 20px;
-  margin-left: 0px;
-  font-size: 0.8em;
-  text-decoration: none;
-
-}
-/*The login/Registration form that can pop-up*/
-.logRegForm {
-  position: relative;
-  margin-top: 24vh;
-  margin-right: 25vw;
-  margin-left: 25vw;
-  width: 400px;
-  height: 440px;
-  background: transparent;
-  border: 2px solid rgba(255, 255, 255, .5);
-  border-radius: 20px;
-  backdrop-filter: blur(20px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
-  display: flex;
-  transform: scale(0);
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transition: transform .3s ease, height .2s ease;
-}
-.logRegForm.active {
-  height: 520px;
-}
-
-.logRegForm .form-box {
-  width: 50vw;
-  padding: 40px;
-}
-.logRegForm .icon-close {  
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 45px;
-  height: 45px;
-  background: rgba(75, 75, 56, .5);
-  font-size: 2em;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom-left-radius: 20px;
-  cursor: pointer;
-  z-index: 1;
-}
-.form-box h2 {
-  font-size: 2em;
-  color: black;
-  text-align: center;
-}
-
-.input-box {
-  position: relative;
-  width: 100%;
-  height: 50px;
-  border-bottom: 2px solid black;
-  margin: 30px 0;
-}
-
-.input-box label {
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  transform: translateY(-50%);
-  font-size: 1em;
-  color: black;
-  font-weight: 500;
-  pointer-events: none;
-  transition: .4s;
-}
-
-.input-box input {
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  border: none;
-  outline: none;
-  font-size: 1em;
-  color: black;
-  font-weight: 600;
-  padding: 0 35px 0 5px;
-}
-
-.input-box .icon {
-  position: absolute;
-  right: 8px;
-  font-size: 1.2em;
-  color: black;
-  line-height: 57px;
-}
-
-.remember-forgot {
-  font-size: .9em; 
-  color: black;
-  font-weight: 500;
-  margin: -15px 0 15px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.remember-forgot label input {
-  accent-color: black;
-  margin-right: 3px;
-}
-
-.remember-forgot a {
-  color: black;
-  text-decoration: none;
-}
-
-.remember-forgot a:hover {
-  text-decoration: underline;
-}
-
-.btn {
-  width: 100%;
-  height: 45px;
-  background: black;
-  border: none;
-  outline: none;
-  border-radius: 6px;
-  cursor: pointer;
-  color: white;
-  font-weight: 500;
-}
-
-.login-register {
-  font-size: .9em;
-  color: black;
-  text-align: center;
-  font-weight: 500;
-  margin: 25px 0 10px;
-}
-
-.login-register p a {
-  color: black;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-}
 
 
