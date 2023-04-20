@@ -252,26 +252,26 @@ body {
   width: auto;
   height: 190px;
   margin-top: 30vh;
-  margin-left: 16vw;
+  margin-left: 18vw;
 }
 
 .all {
   color: #066035;
   text-align: left;
-  margin-left: 5vw;
+  margin-left: 2vw;
   margin-top: 30vh;
-  padding-right: 25vw;
+  margin-right: 30vw;
 }
 
 .all h1 {
   position: absolute;
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 
 .all p {
   margin-top: 110px;
   position: absolute;
-  font-size: 19px;
+  font-size: 1.2rem;
 }
 
 
@@ -289,7 +289,7 @@ body {
   cursor: pointer;
   color: #fff;
   font-weight: 200;
-  margin-top: 25.5vh;
+  margin-top: 169px;
   font-size: 12px;
   text-decoration: none;
 
