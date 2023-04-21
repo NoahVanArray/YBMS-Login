@@ -264,7 +264,7 @@ body {
   width: auto;
   height: 180px;
   margin-top: 29.1vh;
-  margin-left: -9.5vw;
+  margin-left: -2.5vw;
 }
 
 .all {
@@ -286,13 +286,20 @@ body {
   font-size: 1.1rem;
 }
 
-.links a{
+.links p a{
   position: absolute;
   color: #066035;
   text-decoration: none;
-  font-weight: 600;
-  margin-top: 1vh;
+  margin-top: 88vh;
+  margin-left: -55vw;
+  text-align: center;
+  cursor: pointer;
 }
+
+.links span {
+  margin-left: 6vw;
+}
+
 
 /*The button for "login"*/
 .btnLogin-popup {
