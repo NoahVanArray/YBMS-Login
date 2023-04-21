@@ -8,6 +8,18 @@ body {
   justify-content: center;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #508F71;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #508F71;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #508F71;
+}
 
 /*.all {
   color: #066035;
@@ -274,7 +286,13 @@ body {
   font-size: 1.1rem;
 }
 
-
+.links a{
+  position: absolute;
+  color: #066035;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 1vh;
+}
 
 /*The button for "login"*/
 .btnLogin-popup {
