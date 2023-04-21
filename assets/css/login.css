@@ -252,7 +252,7 @@ body {
   width: auto;
   height: 180px;
   margin-top: 29.1vh;
-  margin-left: 17.5vw;
+  margin-left: -9.5vw;
 }
 
 .all {
@@ -269,7 +269,7 @@ body {
 }
 
 .all p {
-  margin-top: 89px;
+  margin-top: 92px;
   position: absolute;
   font-size: 1.1rem;
 }
@@ -278,7 +278,7 @@ body {
 
 /*The button for "login"*/
 .btnLogin-popup {
-  width: 185px;
+  width: 162px;
   height: 20px;
   position: absolute;
   background: #066035;
@@ -289,24 +289,22 @@ body {
   cursor: pointer;
   color: #fff;
   font-weight: 200;
-  margin-top: 143px;
+  margin-top: 147px;
   font-size: 12px;
   text-decoration: none;
 
 }
 /*The login/Registration form that can pop-up*/
 .logRegForm {
-  position: relative;
-  margin-top: 24vh;
-  margin-right: 15vw;
-  margin-left: 15vw;
-  width: 400px;
-  height: 440px;
+  position: absolute;
+  margin-top: 0vh;
+  margin-right: 20vw;
+  margin-left: 20vw;
+  width: 100%;
+  height: 100vh;
   background: rgba(255, 255, 255, .5);
   border: 2px solid rgba(255, 255, 255, .5);
-  border-radius: 20px;
   backdrop-filter: blur(20px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
   display: flex;
   transform: scale(0);
   justify-content: center;
@@ -315,11 +313,11 @@ body {
   transition: transform .3s ease, height .2s ease;
 }
 .logRegForm.active {
-  height: 85vh;
+  height: 100%;
 }
 
 .logRegForm .form-box {
-  width: 60vw;
+  width: 80vw;
   padding: 5vw;
 }
 .logRegForm .icon-close {  
