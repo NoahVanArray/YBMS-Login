@@ -252,15 +252,15 @@ body {
   width: auto;
   height: 190px;
   margin-top: 30vh;
-  margin-left: 18vw;
+  margin-left: 15vw;
 }
 
 .all {
-  color: #066035;
+  color: #066035; 
   text-align: left;
   margin-left: 2vw;
   margin-top: 30vh;
-  margin-right: 30vw;
+  padding-right: 25%;
 }
 
 .all h1 {
@@ -278,8 +278,8 @@ body {
 
 /*The button for "login"*/
 .btnLogin-popup {
-  width: 38.4%;
-  height: 3.5vh;
+  width: 185px;
+  height: 20px;
   position: absolute;
   background: #066035;
   border: 1px solid #066035;
