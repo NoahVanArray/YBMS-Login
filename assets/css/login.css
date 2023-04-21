@@ -313,7 +313,7 @@ body {
   transition: transform .3s ease, height .2s ease;
 }
 .logRegForm.active {
-  height: 100%;
+  height: 125vh;
 }
 
 .logRegForm .form-box {
