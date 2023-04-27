@@ -2,6 +2,7 @@
 	Author: John Yohan J. Navarra
 */
 
+// LogReg Form
 const wrapper = document.querySelector('.logRegForm');
 const loginLink = document.querySelector('.login-link');
 const registerLink = document.querySelector('.register-link');
@@ -24,4 +25,17 @@ iconClose.addEventListener('click', ()=> {
 	wrapper.classList.remove('active-popup');
 });
 
+
+// Link popup
+const lglStuff = document.querySelector('.lglStuff');
+const linkPopup = document.querySelector('#link-popup');
+const iconClose2 = document.querySelector('.icon-close2');
+
+linkPopup.addEventListener('click', ()=> {
+	lglStuff.classList.add('active-link');
+});
+
+iconClose2.addEventListener('click', ()=> {
+	lglStuff.classList.remove('active-link');
+});
 
