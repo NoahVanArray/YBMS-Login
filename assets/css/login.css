@@ -34,13 +34,11 @@ body {
   margin-left: 2vw;
   margin-top: 30vh;
   margin-right: 34%;
-  padding-left: 770px;
 }
 
 .all h1 {
   margin-top: -60px;
   margin-right: -10vw;
-
   font-size: 2.5rem;
 }
 
@@ -54,7 +52,6 @@ body {
   text-align: center;
   cursor: pointer;
   clear: both;
-  margin-top: 280px;
 }
 
 #certainLinks a {
@@ -177,21 +174,7 @@ body {
   margin: 32px 0;
 }
 
-/*remove on @media queries for smaller screens such as phones*/
-.input-half {
-  float: left;
-  margin: 32px 0 0 0;
-  width: 45%;
-}
 
-.half {
-  margin-right: 35.5px;margin-bottom: 0;
-}
-
-.lower-half {
-  margin-bottom: 30px;
-}
-/*end*/
 
 .input-box label {
   position: absolute;
@@ -290,8 +273,9 @@ body {
 
 
 
-/*SIGN*/
 
+
+/*SIGN*/
 
 
 
@@ -302,9 +286,10 @@ body {
 
 #img1 {
   width: auto;
-  height: 180px;
-  margin-top: 29.1vh;
-  margin-left: -2.5vw;
+  height:350px;
+  margin-left: 28vw;
+  margin-top: -45px;
+  float: left;
 }
 
 .all {
@@ -316,34 +301,36 @@ body {
 }
 
 .all h1 {
-  position: absolute;
-  font-size: 1.5rem;
+  margin-top: -60px;
+  margin-right: -10vw;
+  font-size: 2.5rem;
 }
 
 .all p {
-  margin-top: 92px;
-  position: absolute;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
+  margin-right: -10vw;
 }
 
-.links p a{
-  position: absolute;
-  color: #066035;
-  text-decoration: none;
-  margin-top: 88vh;
-  margin-left: -55vw;
+#certainLinks  {
+  position: relative;
   text-align: center;
   cursor: pointer;
+  clear: both;
+  margin-top: 260px; 
+  color: #066035;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: -50vw;
 }
 
-.links span {
-  margin-left: 6vw;
+#certainLinks #link1 {
+  margin-top: 20px;
 }
 
 /*The button for "login"*/
 .btnLogin-popup {
-  width: 162px;
-  height: 20px;
+  width: 250px;
+  height: 30px;
   position: absolute;
   background: #066035;
   border: 1px solid #066035;
@@ -353,22 +340,22 @@ body {
   cursor: pointer;
   color: #fff;
   font-weight: 200;
-  margin-top: 147px;
-  font-size: 12px;
+  margin-top: 12px;
+  font-size: 20px;
   text-decoration: none;
 }
 
 /*The login/Registration form that can pop-up*/
 .logRegForm {
   position: absolute;
-  margin-top: 0vh;
-  margin-right: 20vw;
-  margin-left: 20vw;
+  margin-top: -83vh;
+  margin-left: 0;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   background: rgba(255, 255, 255, .5);
   border: 2px solid rgba(255, 255, 255, .5);
   backdrop-filter: blur(20px);
+  border-radius: 20px;
   display: flex;
   transform: scale(0);
   justify-content: center;
@@ -378,13 +365,173 @@ body {
 }
 
 .logRegForm.active {
-  height: 125vh;
+  height: 88vh;
+  margin-top: -93vh;
 }
 
 .logRegForm .form-box {
-  width: 80vw;
-  padding: 5vw;
+  width: 38vw;
+  padding: 2vw;
 }
+
+.logRegForm .icon-close {
+    position: absolute;
+    top: 0;
+    right: 435px;
+    width: 45px;
+    height: 45px;
+    background: #066035;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+}
+
+
+
+
+
+/*SIGN*/
+
+
+
+
+
+/*For laptop ni sir*/
+@media (max-width: 1500px){
+
+#img1 {
+  width: auto;
+  height:350px;
+  margin-left: 28vw;
+  margin-top: -45px;
+  float: left;
+}
+
+.all {
+  color: #066035; 
+  text-align: left;
+  margin-left: 2vw;
+  margin-top: 30vh;
+  margin-right: 34%;
+}
+
+.all h1 {
+  margin-top: -60px;
+  margin-right: -10vw;
+  font-size: 2.5rem;
+}
+
+.all p {
+  font-size: 1.7rem;
+  margin-right: -10vw;
+}
+
+#certainLinks  {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  clear: both;
+  margin-top: 260px; 
+  color: #066035;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: -50vw;
+}
+
+#certainLinks #link1 {
+  margin-top: 20px;
+}
+
+/*The button for "login"*/
+.btnLogin-popup {
+  width: 250px;
+  height: 30px;
+  position: absolute;
+  background: #066035;
+  border: 1px solid #066035;
+  padding-top: 0.2vh;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 200;
+  margin-top: 12px;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+/*The login/Registration form that can pop-up*/
+.logRegForm {
+  position: absolute;
+  margin-top: -91vh;
+  margin-left: 0;
+  width: 100%;
+  height: 94vh;
+  background: rgba(255, 255, 255, .5);
+  border: 2px solid rgba(255, 255, 255, .5);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  display: flex;
+  transform: scale(0);
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: transform .3s ease, height .2s ease;
+}
+
+.logRegForm.active {
+  height: 94vh;
+  margin-top: -91vh;}
+
+.logRegForm .form-box {
+  width: 38vw;
+  padding: 2vw;
+}
+
+.logRegForm .icon-close {
+    position: absolute;
+    top: 0;
+    right: 25vw;
+    width: 45px;
+    height: 45px;
+    background: #066035;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/*remove on @media queries for smaller screens such as phones*/
+.input-half {
+  float: left;
+  margin: 32px 0 0 0;
+  width: 45%;
+}
+
+.half {
+  margin-right: 3.4vw;
+  margin-bottom: 0;
+}
+
+.lower-half {
+  margin-bottom: 30px;
+}
+/*end*/
 
 }
 
