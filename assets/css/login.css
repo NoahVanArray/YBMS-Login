@@ -273,12 +273,7 @@ body {
 /*The links below aka lglStuff*/
 
 .lglStuff {
-  font-size: 1em;
   position: absolute;
-  margin-top: -84vh;
-  margin-left: 0;
-  width: 100%;
-  height: 75vh;
   background: rgba(255, 255, 255, .5);
   border: 2px solid rgba(255, 255, 255, .5);
   backdrop-filter: blur(20px);
@@ -298,12 +293,7 @@ body {
 
 .lglStuff .icon-close2 {  
   position: absolute;
-  top: 0;
-  right: 250px;
-  width: 45px;
-  height: 45px;
   background: #066035;
-  font-size: 2em;
   color: white;
   display: flex;
   justify-content: center;
@@ -313,11 +303,6 @@ body {
   transition: none;
   cursor: pointer;
   z-index: 1;
-}
-
-.lglStuff .form-box {
-  width: 55vw;
-  padding: 0vw;
 }
 
 .lglContent {
@@ -335,18 +320,18 @@ body {
 
 
 /*For phones*/
-@media (max-width: 500px){
+@media (min-width: 300px){
 
 #img1 {
   width: auto;
-  height:350px;
-  margin-left: 28vw;
-  margin-top: -45px;
+  height: 106px;
+  margin-left: 13vw;
+  margin-top: -14.1px;
   float: left;
 }
 
 .all {
-  color: #066035; 
+color: #066035;
   text-align: left;
   margin-left: 2vw;
   margin-top: 30vh;
@@ -356,20 +341,21 @@ body {
 .all h1 {
   margin-top: -60px;
   margin-right: -10vw;
-  font-size: 2.5rem;
+  font-size: 0.83rem;
 }
 
 .all p {
-  font-size: 1.7rem;
+  font-size: 0.6rem;
   margin-right: -10vw;
 }
 
 #certainLinks  {
+  font-size: 0.7em;
   position: relative;
   text-align: center;
   cursor: pointer;
   clear: both;
-  margin-top: 260px; 
+  margin-top: 50vh;
   color: #066035;
   text-decoration: none;
   display: inline-block;
@@ -382,8 +368,8 @@ body {
 
 /*The button for "login"*/
 .btnLogin-popup {
-  width: 250px;
-  height: 30px;
+  width: 89px;
+  height: 11px;
   position: absolute;
   background: #066035;
   border: 1px solid #066035;
@@ -393,18 +379,18 @@ body {
   cursor: pointer;
   color: #fff;
   font-weight: 200;
-  margin-top: 12px;
-  font-size: 20px;
+  margin-top: 6px;
+  font-size: 0.4em;
   text-decoration: none;
 }
 
 /*The login/Registration form that can pop-up*/
 .logRegForm {
   position: absolute;
-  margin-top: -83vh;
+  margin-top: -85vh;  
   margin-left: 0;
   width: 100%;
-  height: 60vh;
+  height: 94vh;
   background: rgba(255, 255, 255, .5);
   border: 2px solid rgba(255, 255, 255, .5);
   backdrop-filter: blur(20px);
@@ -418,32 +404,54 @@ body {
 }
 
 .logRegForm.active {
-  height: 88vh;
-  margin-top: -93vh;
+  height: 174vh;
+  margin-top: -85vh;
 }
 
 .logRegForm .form-box {
-  width: 38vw;
-  padding: 2vw;
+  width: 70vw;
+  padding: 0vw;
 }
 
 .logRegForm .icon-close {
-    position: absolute;
-    top: 0;
-    right: 435px;
-    width: 45px;
-    height: 45px;
-    background: #066035;
-    font-size: 2em;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-    transition: none;
-    cursor: pointer;
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 5vw;
+  width: 45px;
+  height: 45px;
+  background: #066035;
+  font-size: 2em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  transition: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Links below */
+.lglStuff {
+  font-size: 1em;
+  margin-top: -84vh;
+  margin-left: 0;
+  width: 100%;
+  height: 75vh;
+}
+
+.lglStuff .icon-close2 {  
+  top: 0;
+  right: 250px;
+  width: 45px;
+  height: 45px;
+  font-size: 2em;
+}
+
+.lglStuff .form-box {
+  width: 55vw;
+  padding: 0vw;
 }
 
 }
@@ -459,7 +467,7 @@ body {
 
 
 /*For laptop ni sir*/
-@media (max-width: 1500px){
+@media (min-width: 1000px){
 
 #img1 {
   width: auto;
@@ -493,7 +501,7 @@ body {
   text-align: center;
   cursor: pointer;
   clear: both;
-  margin-top: 260px; 
+  margin-top: 260px; /* change to vh */
   color: #066035;
   text-decoration: none;
   display: inline-block;
@@ -586,9 +594,29 @@ body {
 }
 /*end*/
 
+/* Links below */
+.lglStuff {
+  font-size: 1em;
+  margin-top: -84vh;
+  margin-left: 0;
+  width: 100%;
+  height: 75vh;
 }
 
+.lglStuff .icon-close2 {  
+  top: 0;
+  right: 250px;
+  width: 45px;
+  height: 45px;
+  font-size: 2em;
+}
 
+.lglStuff .form-box {
+  width: 55vw;
+  padding: 0vw;
+}
+
+}
 
 
 
