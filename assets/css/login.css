@@ -20,61 +20,58 @@ body {
   color: #508F71;
 }
 
+.main {
+  top: 20%;
+  left: 47%;
+  position: absolute;
+}
+
 #img1 {
-  width: auto;
-  height:350px;
-  margin-left: 28vw;
-  margin-top: -45px;
-  float: left;
+  margin-left: -245px;
+  width: 17em;
+  position: absolute;
 }
 
-.all {
-  color: #066035; 
+.text {
+  color: #066035;
+  font-size: 2.5em;
+  margin-top: 8px;
+  display: inline-block;
   text-align: left;
-  margin-left: 2vw;
-  margin-top: 30vh;
-  margin-right: 34%;
+  margin-left: 1em;
 }
 
-.all h1 {
-  margin-top: -60px;
-  margin-right: -10vw;
-  font-size: 2.5rem;
+.text2 {
+  margin-left: 0.3em;
+  margin-top: -0.1em;
+  font-size: 1.5em;
 }
 
-.all p {
-  font-size: 1.7rem;
-  margin-right: -10vw;
-}
-
-#certainLinks p {
-  position: relative;
-  text-align: center;
-  cursor: pointer;
-  clear: both;
-}
-
-#certainLinks a {
+.link {
+  bottom: -21em;
   color: #066035;
   text-decoration: none;
+  left: -33%;
+  position: absolute;
 }
 
 /*The button for "login"*/
 .btnLogin-popup {
-  width: 250px;
-  height: 30px;
+  font-size: 1.2em;
+  font-weight: 200;
+  width: 13.5em;
+  height: 1.5em;
+  margin-top: 0.7em;
+  margin-left: -5.7em;
   position: absolute;
   background: #066035;
   border: 1px solid #066035;
-  padding-top: 0.2vh;
-  outline: none;
   border-radius: 8px;
+  outline: none;
   cursor: pointer;
   color: #fff;
-  font-weight: 200;
-  margin-top: 12px;
-  font-size: 20px;
   text-decoration: none;
+}
 }
 
 /*Just changes the color of the button on hover*/
@@ -87,7 +84,7 @@ body {
 /*The login/Registration form that can pop-up*/
 .logRegForm {
   position: absolute;
-  margin-top: -83vh;
+  margin-top: -0vh;
   margin-left: 28vw;
   width: 650px;
   height: 60vh;
@@ -110,7 +107,7 @@ body {
 
 .logRegForm.active {
   height: 88vh;
-  margin-top: -93vh;
+  margin-top: -0vh;
 }
 
 .logRegForm .form-box {
@@ -273,7 +270,12 @@ body {
 /*The links below aka lglStuff*/
 
 .lglStuff {
+  font-size: 1em;
   position: absolute;
+  margin-top: -0vh;
+  margin-left: 0;
+  width: 100%;
+  height: 75vh;
   background: rgba(255, 255, 255, .5);
   border: 2px solid rgba(255, 255, 255, .5);
   backdrop-filter: blur(20px);
@@ -293,7 +295,12 @@ body {
 
 .lglStuff .icon-close2 {  
   position: absolute;
+  top: 0;
+  right: 90px;
+  width: 45px;
+  height: 45px;
   background: #066035;
+  font-size: 2em;
   color: white;
   display: flex;
   justify-content: center;
@@ -303,6 +310,11 @@ body {
   transition: none;
   cursor: pointer;
   z-index: 1;
+}
+
+.lglStuff .form-box {
+  width: 55vw;
+  padding: 0vw;
 }
 
 .lglContent {
@@ -314,463 +326,6 @@ body {
 
 
 /*SIGN*/
-
-
-
-
-
-/*For phones*/
-@media (min-width: 300px){
-
-#img1 {
-  width: auto;
-  height: 106px;
-  margin-left: 17.4vw;
-  margin-top: -14.1px;
-  float: left;
-}
-
-.all {
-color: #066035;
-  text-align: left;
-  margin-left: 2vw;
-  margin-top: 30vh;
-  margin-right: 34%;
-}
-
-.all h1 {
-  margin-top: -60px;
-  margin-right: -10vw;
-  font-size: 0.78rem;
-}
-
-
-.all p {
-  font-size: 0.55rem;
-  margin-right: -10.2vw;
-}
-
-#certainLinks  {
-  font-size: 0.7em;
-  position: relative;
-  text-align: center;
-  cursor: pointer;
-  clear: both;
-  margin-top: 50vh;
-  color: #066035;
-  text-decoration: none;
-  display: inline-block;
-  margin-left: -50vw;
-}
-
-#certainLinks #link1 {
-  margin-top: 20px;
-}
-
-/*The button for "login"*/
-.btnLogin-popup {
-  width: 84px;
-  height: 11px;
-  position: absolute;
-  background: #066035;
-  border: 1px solid #066035;
-  padding-top: 0.2vh;
-  outline: none;
-  border-radius: 8px;
-  cursor: pointer;
-  color: #fff;
-  font-weight: 200;
-  margin-top: 6px;
-  font-size: 0.4em;
-  text-decoration: none;
-}
-
-/*The login/Registration form that can pop-up*/
-.logRegForm {
-  position: absolute;
-  margin-top: -85vh;  
-  margin-left: 0;
-  width: 100%;
-  height: 94vh;
-  background: rgba(255, 255, 255, .5);
-  border: 2px solid rgba(255, 255, 255, .5);
-  backdrop-filter: blur(20px);
-  border-radius: 20px;
-  display: flex;
-  transform: scale(0);
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transition: transform .3s ease, height .2s ease;
-}
-
-.logRegForm.active {
-  height: 174vh;
-  margin-top: -85vh;
-}
-
-.logRegForm .form-box {
-  width: 70vw;
-  padding: 0vw;
-}
-
-.logRegForm .icon-close {
-  position: absolute;
-  top: 0;
-  right: 5vw;
-  width: 45px;
-  height: 45px;
-  background: #066035;
-  font-size: 2em;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
-  transition: none;
-  cursor: pointer;
-  z-index: 1;
-}
-
-/* Links below */
-.lglStuff {
-  font-size: 0.6em;
-  margin-top: -84vh;
-  margin-left: 0;
-  width: 100%;
-  height: 133%;
-}
-
-.lglStuff .icon-close2 {  
-  top: 0;
-  right: 20px;
-  width: 45px;
-  height: 45px;
-  font-size: 2em;
-}
-
-.lglStuff .form-box {
-  width: 55vw;
-  padding: 0vw;
-}s
-
-}
-
-
-
-
-
-/*SIGN*/
-
-
-
-
-
-/*For phones*/
-@media (min-width: 400px){
-
-#img1 {
-  width: auto;
-  height: 120px;
-  margin-left: 23vw;
-  margin-top: -14.1px;
-  float: left;
-}
-
-.all {
-color: #066035;
-  text-align: left;
-  margin-left: 2vw;
-  margin-top: 30vh;
-  margin-right: 34%;
-}
-
-.all h1 {
-  margin-top: -60px;
-  margin-right: -10vw;
-  font-size: 0.88rem;
-}
-
-.all p {
-  font-size: 0.59rem;
-  margin-right: -10.2vw;
-}
-
-#certainLinks  {
-  font-size: 0.7em;
-  position: relative;
-  text-align: center;
-  cursor: pointer;
-  clear: both;
-  margin-top: 50vh;
-  color: #066035;
-  text-decoration: none;
-  display: inline-block;
-  margin-left: -50vw;
-}
-
-#certainLinks #link1 {
-  margin-top: 20px;
-}
-
-/*The button for "login"*/
-.btnLogin-popup {
-  width: 91px;
-  height: 13px;
-  position: absolute;
-  background: #066035;
-  border: 1px solid #066035;
-  padding-top: 0.2vh;
-  outline: none;
-  border-radius: 8px;
-  cursor: pointer;
-  color: #fff;
-  font-weight: 200;
-  margin-top: 6px;
-  font-size: 0.4em;
-  text-decoration: none;
-}
-
-/*The login/Registration form that can pop-up*/
-.logRegForm {
-  position: absolute;
-  margin-top: -85vh;  
-  margin-left: 0;
-  width: 100%;
-  height: 94vh;
-  background: rgba(255, 255, 255, .5);
-  border: 2px solid rgba(255, 255, 255, .5);
-  backdrop-filter: blur(20px);
-  border-radius: 20px;
-  display: flex;
-  transform: scale(0);
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transition: transform .3s ease, height .2s ease;
-}
-
-.logRegForm.active {
-  height: 174vh;
-  margin-top: -86vh;
-}
-
-.logRegForm .form-box {
-  width: 70vw;
-  padding: 0vw;
-}
-
-.logRegForm .icon-close {
-  position: absolute;
-  top: 0;
-  right: 5vw;
-  width: 45px;
-  height: 45px;
-  background: #066035;
-  font-size: 2em;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
-  transition: none;
-  cursor: pointer;
-  z-index: 1;
-}
-
-/* Links below */
-.lglStuff {
-  font-size: 0.6em;
-  margin-top: -86vh;
-  margin-left: 0;
-  width: 100%;
-  height: 110%;
-}
-
-.lglStuff .icon-close2 {  
-  top: 0;
-  right: 20px;
-  width: 45px;
-  height: 45px;
-  font-size: 2em;
-}
-
-.lglStuff .form-box {
-  width: 55vw;
-  padding: 0vw;
-}s
-
-}
-
-
-
-
-
-/*SIGN*/
-
-
-
-
-
-/*For laptop ni sir*/
-@media (min-width: 1000px){
-
-#img1 {
-  width: auto;
-  height:350px;
-  margin-left: 28vw;
-  margin-top: -45px;
-  float: left;
-}
-
-.all {
-  color: #066035; 
-  text-align: left;
-  margin-left: 2vw;
-  margin-top: 30vh;
-  margin-right: 34%;
-}
-
-.all h1 {
-  margin-top: -60px;
-  margin-right: -10vw;
-  font-size: 2.5rem;
-}
-
-.all p {
-  font-size: 1.7rem;
-  margin-right: -10vw;
-}
-
-#certainLinks  {
-  position: relative;
-  text-align: center;
-  cursor: pointer;
-  clear: both;
-  margin-top: 260px; /* change to vh */
-  color: #066035;
-  text-decoration: none;
-  display: inline-block;
-  margin-left: -50vw;
-}
-
-#certainLinks #link1 {
-  margin-top: 20px;
-}
-
-/*The button for "login"*/
-.btnLogin-popup {
-  width: 250px;
-  height: 30px;
-  position: absolute;
-  background: #066035;
-  border: 1px solid #066035;
-  padding-top: 0.2vh;
-  outline: none;
-  border-radius: 8px;
-  cursor: pointer;
-  color: #fff;
-  font-weight: 200;
-  margin-top: 12px;
-  font-size: 1em;
-  text-decoration: none;
-}
-
-/*The login/Registration form that can pop-up*/
-.logRegForm {
-  position: absolute;
-  margin-top: -91vh;
-  margin-left: 0;
-  width: 100%;
-  height: 94vh;
-  background: rgba(255, 255, 255, .5);
-  border: 2px solid rgba(255, 255, 255, .5);
-  backdrop-filter: blur(20px);
-  border-radius: 20px;
-  display: flex;
-  transform: scale(0);
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transition: transform .3s ease, height .2s ease;
-}
-
-.logRegForm.active {
-  height: 94vh;
-  margin-top: -91vh;}
-
-.logRegForm .form-box {
-  width: 38vw;
-  padding: 2vw;
-}
-
-.logRegForm .icon-close {
-    position: absolute;
-    top: 0;
-    right: 25vw;
-    width: 45px;
-    height: 45px;
-    background: #066035;
-    font-size: 2em;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-    transition: none;
-    cursor: pointer;
-    z-index: 1;
-}
-
-/*remove on @media queries for smaller screens such as phones*/
-.input-half {
-  float: left;
-  margin: 32px 0 0 0;
-  width: 45%;
-}
-
-.half {
-  margin-right: 3.4vw;
-  margin-bottom: 0;
-}
-
-.lower-half {
-  margin-bottom: 30px;
-}
-/*end*/
-
-/* Links below */
-.lglStuff {
-  font-size: 1em;
-  margin-top: -84vh;
-  margin-left: 0;
-  width: 100%;
-  height: 75vh;
-}
-
-.lglStuff .icon-close2 {  
-  top: 0;
-  right: 250px;
-  width: 45px;
-  height: 45px;
-  font-size: 2em;
-}
-
-.lglStuff .form-box {
-  width: 55vw;
-  padding: 0vw;
-}
-
-}
-
-
-
-/*SIGN*/
-
-
 
 
 
