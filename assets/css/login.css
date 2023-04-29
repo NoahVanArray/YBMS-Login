@@ -36,9 +36,9 @@ body {
   color: #066035;
   font-size: 2.5em;
   margin-top: 8px;
+  margin-left: 1em;
   display: inline-block;
   text-align: left;
-  margin-left: 1em;
 }
 
 .text2 {
@@ -49,9 +49,9 @@ body {
 
 .link {
   bottom: -300px;
+  left: -33%;
   color: #066035;
   text-decoration: none;
-  left: -33%;
   position: absolute;
 }
 
@@ -84,8 +84,8 @@ body {
 /*The login/Registration form that can pop-up*/
 .logRegForm {
   position: absolute;
-  margin-top: -0vh;
-  margin-left: 28vw;
+  margin-top: 14vh;
+  margin-left: 24.7vw;
   width: 650px;
   height: 60vh;
   background: rgba(255, 255, 255, .5);
@@ -107,11 +107,11 @@ body {
 
 .logRegForm.active {
   height: 88vh;
-  margin-top: -0vh;
+  margin-top: 2vh;
 }
 
 .logRegForm .form-box {
-  width: 27vw;
+  width: 35vw;
   padding: 2vw;
 }
 
@@ -141,17 +141,18 @@ body {
 
 .logRegForm .icon-close {  
   position: absolute;
+  display: flex;
   top: 0;
   right: 90px;
   width: 45px;
   height: 45px;
-  background: #066035;
   font-size: 2em;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
   color: white;
-  display: flex;
+  background: #066035;
   justify-content: center;
   align-items: center;
-  border-bottom-left-radius: 20px;
   transition: none;
   cursor: pointer;
   z-index: 1;
@@ -195,8 +196,8 @@ body {
   border: none;
   outline: none;
   font-size: 1em;
-  color: #066035;
   font-weight: 600;
+  color: #066035;
   padding: 0 35px 0 5px;
 }
 
@@ -204,14 +205,14 @@ body {
   position: absolute;
   right: 8px;
   font-size: 1.2em;
-  color: #066035;
   line-height: 57px;
+  color: #066035;
 }
 
 .remember-forgot {
   font-size: .9em; 
-  color: #066035;
   font-weight: 500;
+  color: #066035;
   margin: -15px 0 15px;
   display: flex;
   justify-content: space-between;
@@ -227,7 +228,6 @@ body {
   margin-left: 5vw;
   text-decoration: none;
   text-align: right;
-
 }
 
 .remember-forgot a:hover {
@@ -239,8 +239,8 @@ body {
   height: 45px;
   background: #066035;
   border: none;
-  outline: none;
   border-radius: 6px;
+  outline: none;
   cursor: pointer;
   color: white;
   font-weight: 500;
@@ -324,5 +324,21 @@ body {
 
 /*SIGN*/
 
+@media (min-width: 1000px) {
+  /*remove on @media queries for smaller screens such as phones*/
+.input-half {
+  float: left;
+  margin: 32px 0 0 0;
+  width: 45%;
+}
 
+.half {
+  margin-right: 3vw;
+  margin-bottom: 0;
+}
 
+.lower-half {
+  margin-bottom: 30px;
+}
+/*end*/
+}
