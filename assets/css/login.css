@@ -22,7 +22,7 @@ body {
 
 .main {
   top: 20%;
-  left: 47%;
+  left: 45%;
   position: absolute;
 }
 
@@ -33,36 +33,38 @@ body {
 }
 
 .text {
+  white-space: nowrap;
   color: #066035;
   font-size: 2.5em;
   margin-top: 8px;
   margin-left: 1em;
   display: inline-block;
+  position: absolute;
   text-align: left;
 }
 
 .text2 {
-  margin-left: 0.3em;
-  margin-top: -0.1em;
-  font-size: 1.5em;
+  margin-left: 1.49em;
+  margin-top: 4.8em;
+  font-size: 1.70em;
 }
 
 .link {
-  bottom: -300px;
-  left: -33%;
+  top: 660px;
+  left: 0%;
   color: #066035;
   text-decoration: none;
-  position: absolute;
+  position: relative;
 }
 
 /*The button for "login"*/
 .btnLogin-popup {
   font-size: 1.2em;
   font-weight: 200;
-  width: 13.5em;
+  width: 13.4em;
   height: 1.5em;
-  margin-top: 0.7em;
-  margin-left: -5.7em;
+  margin-top: 9.9em;
+  margin-left: 2.2em;
   position: absolute;
   background: #066035;
   border: 1px solid #066035;
@@ -84,10 +86,10 @@ body {
 /*The login/Registration form that can pop-up*/
 .logRegForm {
   position: absolute;
-  margin-top: 14vh;
-  margin-left: 24.7vw;
-  width: 650px;
-  height: 60vh;
+  margin-top: -20px;
+  margin-left: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(255, 255, 255, .5);
   border: 2px solid rgba(255, 255, 255, .5);
   backdrop-filter: blur(20px);
@@ -106,8 +108,8 @@ body {
 }
 
 .logRegForm.active {
-  height: 88vh;
-  margin-top: 2vh;
+  height: 100vh;
+  margin-top: -20px;
 }
 
 .logRegForm .form-box {
@@ -142,8 +144,27 @@ body {
 .logRegForm .icon-close {  
   position: absolute;
   display: flex;
-  top: 0;
-  right: 90px;
+  top: 110px;
+  right: 421px;
+  width: 45px;
+  height: 45px;
+  font-size: 2em;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  background: #066035;
+  justify-content: center;
+  align-items: center;
+  transition: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.logRegForm.active .icon-close {  
+  position: absolute;
+  display: flex;
+  top: 28px;
+  right: 421px;
   width: 45px;
   height: 45px;
   font-size: 2em;
@@ -269,10 +290,10 @@ body {
 .lglStuff {
   font-size: 1em;
   position: absolute;
-  margin-top: 6vh;
+  margin-top: 0;
   margin-left: 0;
   width: 100%;
-  height: 75vh;
+  height: 100vh;
   background: rgba(255, 255, 255, .8);
   border: 2px solid rgba(255, 255, 255, .5);
   backdrop-filter: blur(20px);
@@ -293,8 +314,8 @@ body {
 .lglStuff .icon-close2 {  
   position: absolute;
   top: 0;
-  right: 90px;
-  width: 45px;
+  right: 31px;
+  width: 250px;
   height: 45px;
   background: #066035;
   font-size: 2em;
@@ -316,7 +337,7 @@ body {
 
 .lglContent {
   color: #066035;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 /* end */
