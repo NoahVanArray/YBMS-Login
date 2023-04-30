@@ -382,6 +382,35 @@ body {
   font-size: 0.7em;
 }
 
+.logRegForm {
+  margin-top: -20px;
+  margin-left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.logRegForm .form-box {
+  width: 67vw;
+  padding: 0vw;
+}
+
+.btn {
+  height: 32px;
+}
+
+.logRegForm.active {
+  height: 180vh;
+  margin-top: -20.5px;
+  overflow: visible;
+}
+
+.form-box h2 {
+  font-size: 1.4em;
+  margin-top: 6vh;
+}
+
+
+
 
 .lglStuff {
 
