@@ -441,55 +441,56 @@ body {
 
 }
 
-
 @media (min-width: 768px) {
 
 .main {
   top: 31%;
+  left: 44%;
   margin: -3.5em;
 }
 
 #img1 {
-  margin-left: -73.3px;
-  width: 9.3em;
+  margin-left: -105px;
+  width: 12.7em;
 }
 
 .text {
-  font-size: 1.3em;
+  font-size: 1.7em;
   margin-top: 8px;
   margin-left: 3.7em;
 }
 
 .text2 {
-  margin-left: 5.69em;
+  margin-left: 5.49em;
   margin-top: 4.8em;
-  font-size: 0.85em;
+  font-size: 1.15em;
 }
 
 .btnLogin-popup {
-  font-size: 0.7em;
+  font-size: 0.95em;
   font-weight: 200;
   width: 12.2em;
   height: 1.5em;
-  margin-top: 7.7em;
+  margin-top: 8.3em;
   margin-left: 6.6em;
 }
 
 .link {
-  top: 80vh;
+  top: 88vh;
   left: 0%;
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
 .logRegForm {
-  margin-top: -20px;
-  margin-left: 0;
-  width: 100vw;
-  height: 530px;
+  margin-top: 45px;
+  margin-left: 147px;
+  width: 65vw;
+  height: 517px;
+  padding-top: 126px;
 }
 
 .logRegForm .form-box {
-  width: 67vw;
+  width: 45vw;
   padding: 0vw;
 }
 
@@ -498,23 +499,33 @@ body {
 }
 
 .logRegForm.active {
-  height: 910px;
+  height: 700px;
   margin-right: 0;
-  margin-left: 0;
-  margin-top: -19.6px;
-  padding-top: 4px;
+  margin-left: 147px;
+  margin-top: -6.5px;
+  padding-top: 210px;
 }
 
 .form-box h2 {
   font-size: 1.4em;
-  margin-top: 50px;
+  margin-top: -177px;
+}
+
+.lglStuff .lglPara {
+  margin-bottom: 65px;
 }
 
 .lglStuff {
-  margin-top: -20.5px;
+  margin-top: -15.5px;
   margin-left: 40px;
   width: 90%;
-  height: 38em;
+  height: 35em;
+}
+
+.lglStuff .form-box {
+  width: 55vw;
+  padding: 0vw;
+  margin-top: 120px;
 }
 
 .input-half {
@@ -524,18 +535,120 @@ body {
 }
 
 .half {
-  margin-right: 3vw;
+  margin-right: 4.5vw;
   margin-bottom: 0;
 }
 
 .lower-half {
-  margin-bottom: 30px;
+  margin-bottom: 34px;
 }
 
-
 }
 
+@media (min-width: 1024px) {
 
+.main {
+  top: 31%;
+  left: 41%;
+  margin: -3.5em;
+}
+
+#img1 {
+  margin-left: -110px;
+  width: 14.7em;
+}
+
+.text {
+  font-size: 2.2em;
+  margin-top: 8px;
+  margin-left: 3.7em;
+}
+
+.text2 {
+  font-size: 1.5em;
+  margin-left: 5.49em;
+  margin-top: 4.9em;
+}
+
+.btnLogin-popup {
+  font-size: 1.25em;
+  font-weight: 200;
+  width: 11.2em;
+  height: 1.5em;
+  margin-top: 8.3em;
+  margin-left: 6.6em;
+}
+
+.link {
+  top: 88vh;
+  left: 0%;
+  font-size: 1em;
+}
+
+.logRegForm {
+  margin-top: 45px;
+  margin-left: 230px;
+  width: 55vw;
+  height: 517px;
+  padding-top: 126px;
+}
+
+.logRegForm .form-box {
+  width: 45vw;
+  padding: 0vw;
+}
+
+.btn {
+  height: 32px;
+}
+
+.logRegForm.active {
+  height: 604px;
+  margin-right: 0;
+  margin-left: 189px;
+  margin-top: -6.5px;
+  padding-top: 208px;
+  width: 63vw;
+}
+
+.form-box h2 {
+  font-size: 1.4em;
+  margin-top: -177px;
+}
+
+.lglStuff .lglPara {
+  margin-bottom: 65px;
+}
+
+.lglStuff {
+  margin-top: -15.5px;
+  margin-left: 40px;
+  width: 90%;
+  height: 35em;
+}
+
+.lglStuff .form-box {
+  width: 55vw;
+  padding: 0vw;
+  margin-top: 120px;
+}
+
+.input-half {
+  float: left;
+  margin: 32px 0 0 0;
+  width: 45%;
+}
+
+.half {
+  margin-right: 4.5vw;
+  margin-bottom: 0;
+}
+
+.lower-half {
+  margin-bottom: 34px;
+}
+
+}
 
 
 
