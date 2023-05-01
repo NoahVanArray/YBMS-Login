@@ -290,7 +290,6 @@ body {
   text-decoration: underline;
 }
 
-
 /*The links below aka lglStuff*/
 .lglStuff {
   font-size: 1em;
@@ -665,54 +664,58 @@ body {
 
 .main {
   top: 20%;
-  left: 40%;
+  left: 39.5%;
   margin: 0;
 }
 
 #img1 {
-  margin-left: -150px;
-  width: 18em;
+  margin-left: -123px;
+  width: 16em;
 }
 
 .text {
-  font-size: 2.6em;
+  font-size: 2.4em;
   margin-top: 10px;
   margin-left: 3.7em;
 }
 
 .text2 {
-font-size: 1.75em;
-  margin-left: 5.49em;
+  font-size: 1.6em;
+  margin-left: 5.59em;
   margin-top: 5em;
 }
 
 .btnLogin-popup {
-  font-size: 1.35em;
+  font-size: 1.25em;
   font-weight: 200;
   width: 12.5em;
   height: 1.5em;
   margin-top: 9.2em;
-  margin-left: 7.3em;
+  margin-left: 7em;
 }
 
 .link {
   top: 90vh;
   left: 0%;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .logRegForm {
   font-size: 1.3em;
   margin-top: 85px;
-  margin-left: 376px;
-  width: 48vw;
+  margin-left: 435px;
+  width: 39vw;
   height: 517px;
   padding-top: 126px;
 }
 
 .logRegForm .form-box {
-  width: 35vw;
+  width: 28vw;
   padding: 0vw;
+}
+
+.logRegForm.active .form-box.register {
+  width: 75%;
 }
 
 .btn {
@@ -720,13 +723,12 @@ font-size: 1.75em;
 }
 
 .logRegForm.active {
-  height: 645px;
+  height: 705px;
   margin-right: 0;
   margin-left: 315px;
-  margin-top: 10.5px;
-  padding-top: 260px;
-  width: 58vw;
-}
+  margin-top: -5.5px;
+  padding-top: 245px;
+  width: 58vw;}
 
 .form-box h2 {
   font-size: 1.4em;
@@ -758,7 +760,7 @@ font-size: 1.75em;
 }
 
 .half {
-  margin-right: 5vw;
+  margin-right: 4vw;
   margin-bottom: 0;
 }
 
@@ -809,16 +811,16 @@ font-size: 2.2em;
 }
 
 .logRegForm {
-font-size: 1.3em;
-    margin-top: 15em;
-    margin-left: 35em;
-    width: 43vw;
-    height: 647px;
-    padding-top: 131px;
+  font-size: 1.3em;
+  margin-top: 7em;
+  margin-left: 41em;
+  width: 34vw;
+  height: 647px;
+  padding-top: 131px;
 }
 
 .logRegForm .form-box {
-  width: 35vw;
+  width: 25vw;
   padding: 0vw;
 }
 
@@ -827,12 +829,12 @@ font-size: 1.3em;
 }
 
 .logRegForm.active {
-height: 912px;
-    margin-right: 0;
-    margin-left: 36em;
-    margin-top: 8em;
-    padding-top: 272px;
-    width: 42vw;
+  height: 983px;
+  margin-right: 0;
+  margin-left: 36em;
+  margin-top: 2em;
+  padding-top: 251px;
+  width: 42vw;
 }
 
 .form-box h2 {
@@ -856,11 +858,11 @@ height: 912px;
 }
 
 .lglStuff {
-margin-top: 133.5px;
-    margin-left: 410px;
-    width: 69%;
-    height: 28em;
-    font-size: 2.7em;
+  margin-top: 15.5px;
+  margin-left: 410px;
+  width: 69%;
+  height: 28em;
+  font-size: 2.7em;
 }
 
 .lglStuff .form-box {
@@ -876,7 +878,7 @@ margin-top: 133.5px;
 }
 
 .half {
-  margin-right: 3.5vw;
+  margin-right: 3vw;
   margin-bottom: 0;
 }
 
