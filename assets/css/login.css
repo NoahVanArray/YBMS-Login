@@ -401,9 +401,10 @@ body {
 
 .logRegForm.active {
 height: 116vh;
-    margin-right: 0;
-    margin-left: 0;
-    margin-top: -19.6px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: -19.6px;
+  padding-top: 50px;
 }
 
 .form-box h2 {
