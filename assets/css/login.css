@@ -333,6 +333,7 @@ body {
 .lglStuff .form-box {
   width: 55vw;
   padding: 0vw;
+  margin-top: 0px;
 }
 
 .lglContent {
@@ -377,7 +378,7 @@ body {
 }
 
 .link {
-  top: 421px;
+  top: 90vh;
   left: 0%;
   font-size: 0.7em;
 }
@@ -413,7 +414,7 @@ body {
   margin-top: -20.5px;
   margin-left: 0;
   width: 100%;
-  height: 415vh;
+  height: 220vh;
 }
 
 
