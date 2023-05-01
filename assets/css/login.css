@@ -495,6 +495,11 @@ body {
   padding: 0vw;
 }
 
+.logRegForm.active .form-box.register {
+  width: 90%;
+
+}
+
 .btn {
   height: 32px;
 }
@@ -550,7 +555,7 @@ body {
 
 .main {
   top: 31%;
-  left: 41%;
+  left: 43%;
   margin: -3.5em;
 }
 
@@ -588,7 +593,7 @@ body {
 
 .logRegForm {
   margin-top: 45px;
-  margin-left: 230px;
+  margin-left: 22%;
   width: 55vw;
   height: 517px;
   padding-top: 126px;
@@ -606,7 +611,7 @@ body {
 .logRegForm.active {
   height: 44rem;
   margin-right: 0;
-  margin-left: 189px;
+  margin-left: 20%;
   margin-top: -6.5px;
   padding-bottom: 3em;
   padding-top: 208px;
