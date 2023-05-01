@@ -343,14 +343,105 @@ body {
   margin-top: -75px;  
 }
 
+.input-half {
+  float: left;
+  margin: 32px 0 0 0;
+  width: 45%;
+}
 
+.half {
+  margin-right: 3vw;
+  margin-bottom: 0;
+}
+
+.lower-half {
+  margin-bottom: 30px;
+}
 
 
 /* end */
 
 
 
-@media (max-width: 700px) {
+@media (min-width: 320px) {
+
+.main {
+  top: 31%;
+  margin: -3.5em;
+}
+
+#img1 {
+  margin-left: -73.3px;
+  width: 9.3em;
+}
+
+.text {
+  font-size: 1.3em;
+  margin-top: 8px;
+  margin-left: 3.7em;
+}
+
+.text2 {
+  margin-left: 5.69em;
+  margin-top: 4.8em;
+  font-size: 0.85em;
+}
+
+.btnLogin-popup {
+  font-size: 0.7em;
+  font-weight: 200;
+  width: 12.2em;
+  height: 1.5em;
+  margin-top: 7.7em;
+  margin-left: 6.6em;
+}
+
+.link {
+  top: 80vh;
+  left: 0%;
+  font-size: 0.7em;
+}
+
+.logRegForm {
+  margin-top: -20px;
+  margin-left: 0;
+  width: 100vw;
+  height: 530px;
+}
+
+.logRegForm .form-box {
+  width: 67vw;
+  padding: 0vw;
+}
+
+.btn {
+  height: 32px;
+}
+
+.logRegForm.active {
+  height: 910px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: -19.6px;
+  padding-top: 4px;
+}
+
+.form-box h2 {
+  font-size: 1.4em;
+  margin-top: 50px;
+}
+
+
+.lglStuff {
+  margin-top: -20.5px;
+  margin-left: 0;
+  width: 100%;
+  height: 130em;
+}
+
+}
+
+@media (min-width: 700px) {
 
 .main {
   top: 31%;
@@ -433,23 +524,3 @@ body {
 
 
 
-
-
-@media screen (max-width: 4000px) {
-  /*remove on @media queries for smaller screens such as phones*/
-.input-half {
-  float: left;
-  margin: 32px 0 0 0;
-  width: 45%;
-}
-
-.half {
-  margin-right: 3vw;
-  margin-bottom: 0;
-}
-
-.lower-half {
-  margin-bottom: 30px;
-}
-/*end*/
-}
