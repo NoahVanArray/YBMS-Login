@@ -69,37 +69,31 @@
 			<!-- Login -->
 			<div class="form-box login">
 				<h2>Login</h2>
-				<form action="#">
-
+				<form action="backend.php" method="post">
 					<div class="input-box">
 						<span class="icon">
 							<ion-icon name="mail"></ion-icon>
 						</span>
-						<input type="email" id="eMail" placeholder="Email" required>
+						<input type="email" id="eMail" name="emailvar" placeholder="Email" required>
 					</div>
-
 					<div class="input-box">
 						<span class="icon">
 							<ion-icon name="lock-closed"></ion-icon>
 						</span>
-						<input type="password" placeholder="Password" required>
+						<input type="password" name="passwordvar" placeholder="Password" required>
 					</div>
-
 					<div class="remember-forgot">
 						<label>
 							<input type="checkbox">Remember me
 						</label>
 						<a href="#">Forgot Password?</a>
 					</div>
-
 					<div>
-						<button type="submit" class="btn">Login</button>
+						<button type="submit" name="loginSubmit" value="submit" class="btn">Login</button>
 						<div class="login-register">
 							<p>Don't have an account? <a href="#" class="register-link">Register</a></p>
-							
 						</div>
 					</div>
-
 				</form>
 			</div>
 
@@ -107,69 +101,59 @@
 			<div class="form-box register">
 				<h2>Registration</h2>
 
-				<form action="#">
-
-					<div class="input-box input-half half">
+				<form action="backend.php" method="post">
+					<div class="input-box">
 						<span class="icon">
 							<ion-icon name="person"></ion-icon>
 						</span>
-						<input type="text" placeholder="First Name" required>
+						<input type="text" name="fname2" placeholder="First Name" required>
 					</div>
-
-					<div class="input-box input-half">
+					<div class="input-box">
 						<span class="icon">
 							<ion-icon name="person"></ion-icon>
 						</span>
-						<input type="text" placeholder="Last Name" required>
+						<input type="text" name="lname2" placeholder="Last Name" required>
 					</div>
-
-					<div class="input-box lower-half input-half half">
+					<div class="input-box">
 						<span class="icon">
 							<ion-icon name="school"></ion-icon>
 						</span>
-						<input type="text" placeholder="Grade" required>
+						<input type="text" name="grade2" placeholder="Grade" required>
 					</div>
-
-					<div class="input-box lower-half input-half">
+					<div class="input-box">
 						<span class="icon">
 							<ion-icon name="school"></ion-icon>
 						</span>
-						<input type="text" placeholder="Section" required>
+						<input type="text" name="section2" placeholder="Section" required>
 					</div>
-
-					<div class="input-box" style="clear: both;">
+					<div class="input-box">
 						<span class="icon">
 							<ion-icon name="mail"></ion-icon>
 						</span>
-						<input type="email" id="eMail" placeholder="Email" required>
+						<input type="email" name="email2" id="eMail" placeholder="Email" required>
 					</div>
-
 					<div class="input-box">
 						<span class="icon">
 							<ion-icon name="lock-closed"></ion-icon>
 						</span>
-						<input type="password" placeholder="Password" required>
+						<input type="password" name="password2" placeholder="Password" required>
 					</div>
-
 					<div class="input-box">
 						<span class="icon">
 							<ion-icon name="lock-closed"></ion-icon>
 						</span>
-						<input type="password" placeholder="Repeat Password" required>
+						<input type="password" name="confirm2" placeholder="Repeat Password" required>
 					</div>
-
 					<div class="remember-forgot">
 						<label>
-							<input type="checkbox" required>I agree to the<wbr> terms & conditions
+							<input type="checkbox">I agree to the terms & conditions
 						</label>
 						<a href="#">Forgot Password?</a>
 					</div>
-
 					<div>
-						<button type="submit" class="btn">Register</button>
+						<button type="submit" name="registerSubmit" value="submit" class="btn">Register</button>
 						<div class="login-register">
-							<p>Already have an account? <a href="#" class="login-link">Login</a></p>
-							
+							<p>Already have an account? <a href="#" class="login-link">Login</p>
 						</div>
 					</div>
 
