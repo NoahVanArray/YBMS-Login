@@ -139,7 +139,7 @@ body {
   transition: transform .18s ease;
   visibility: visible;
   transform: translateX(0);
-  width: 90%;
+  width: 67vw;
 }
 
 .logRegForm .icon-close {  
