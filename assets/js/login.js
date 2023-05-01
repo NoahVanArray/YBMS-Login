@@ -44,6 +44,7 @@ let eye = document.getElementById("eye");
 let eye1 = document.getElementById("eye1");
 let eye2 = document.getElementById("eye2");
 
+// login pass
 function myFunction() {
   var x = document.getElementById("passInput");
   if (x.type === "text") {
@@ -55,6 +56,7 @@ function myFunction() {
   }
 }
 
+// reg pass 1
 function myFunction1() {
   var x = document.getElementById("passInput1");
   if (x.type === "text") {
@@ -66,6 +68,7 @@ function myFunction1() {
   }
 }
 
+// reg pass 2
 function myFunction2() {
   var x = document.getElementById("passInput2");
   if (x.type === "text") {
@@ -76,3 +79,4 @@ function myFunction2() {
     eye2.name = "eye";
   }
 }
+
