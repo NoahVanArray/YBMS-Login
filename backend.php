@@ -6,7 +6,7 @@
 		session_start();
 		$email1 = $_POST['emailvar'];
 		$password1 = $_POST['passwordvar'];
-		$conn = new mysqli('localhost','root','','testlibdb');
+		$conn = new mysqli('fdb1028.awardspace.net','3306','Yv3rd0nD3P3st@l0zz!','4299657_ydpbmsdatabase');
 		if ($conn->connect_error) {
 			echo "$conn->connect_error";
 			die("Connection Failed : ". $conn->connect_error);
@@ -43,7 +43,8 @@
 		$email2 = $_POST['email2'];
 		$password2 = $_POST['password2'];
 		$confirm2 = $_POST['confirm2'];
-		$conn = new mysqli('localhost','root','','testlibdb');
+		$terms2 = $_POST['terms2'];
+		$conn = new mysqli('fdb1028.awardspace.net','3306','Yv3rd0nD3P3st@l0zz!','4299657_ydpbmsdatabase');
 		if ($conn->connect_error) {
 			echo "$conn->connect_error";
 			die("Connection Failed : ". $conn->connect_error);
