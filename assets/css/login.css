@@ -5,6 +5,7 @@
 }
 body {
   justify-content: center;
+  letter-spacing: 1px;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -41,20 +42,32 @@ body {
   display: inline-block;
   position: absolute;
   text-align: left;
+  letter-spacing: 5px;
+  line-height: 35px;
+  font-family: "Bebas Neue";
 }
 
+
+
 .text2 {
+  color: #000;
   margin-left: 1.49em;
   margin-top: 4.8em;
   font-size: 1.70em;
+  font-family: "Oswald";
+  letter-spacing: 5px;
 }
 
-.link {
-  top: 660px;
-  left: 0%;
-  color: #066035;
-  text-decoration: none;
-  position: relative;
+.firstLine {
+letter-spacing: 8px;
+}
+
+.secondLine {
+letter-spacing: 9.1px;
+}
+
+.thirdLine {
+letter-spacing: 7.6px;
 }
 
 /*The button for "login"*/
@@ -308,24 +321,40 @@ body {
 }
 
 .text {
-  font-size: 1.3em;
-  margin-top: 8px;
-  margin-left: 3.7em;
+  margin-left: 3.95em;
+  margin-top: 1em;
+  font-size: 1.25em;
+  line-height: 19px;
+  letter-spacing: 2px;
 }
 
 .text2 {
-  margin-left: 5.69em;
-  margin-top: 4.8em;
+  margin-left: 5.8em;
+  margin-top: 4.4em;
   font-size: 0.85em;
+  letter-spacing: 1.5px;
+  line-height: 15px;
+}
+
+.firstLine {
+  letter-spacing: 5.2px;
+}
+
+.secondLine {
+  letter-spacing: 5.6px;
+}
+
+.thirdLine {
+  letter-spacing: 4.7px;
 }
 
 .btnLogin-popup {
   font-size: 0.7em;
   font-weight: 200;
-  width: 12.2em;
+  width: 11em;
   height: 1.5em;
-  margin-top: 7.7em;
-  margin-left: 6.6em;
+  margin-top: 7.1em;
+  margin-left: 7.1em;
 }
 
 .link {
@@ -378,15 +407,18 @@ body {
 }
 
 .text {
-  font-size: 1.7em;
-  margin-top: 8px;
-  margin-left: 3.7em;
+  font-size: 2.1em;
+  margin-top: 18px;
+  margin-left: 3.1em;
+  line-height: 30px;
 }
 
 .text2 {
-  margin-left: 5.49em;
-  margin-top: 4.8em;
+  margin-left: 5.6em;
+  margin-top: 5em;
   font-size: 1.15em;
+  line-height: 20px;
+  letter-spacing: 2.6px;
 }
 
 .btnLogin-popup {
@@ -466,23 +498,38 @@ body {
 }
 
 .text {
-  font-size: 2.2em;
-  margin-top: 8px;
-  margin-left: 3.7em;
+  font-size: 2.5em;
+  margin-top: 19px;
+  margin-left: 3.3em;
+  line-height: 36px;
 }
 
 .text2 {
   font-size: 1.5em;
   margin-left: 5.49em;
-  margin-top: 4.9em;
+  margin-top: 4.6em;
+  letter-spacing: 3.4px;
+  line-height: 25px;
+}
+
+.firstLine {
+letter-spacing: 8px;
+}
+
+.secondLine {
+letter-spacing: 9.1px;
+}
+
+.thirdLine {
+letter-spacing: 7.6px;
 }
 
 .btnLogin-popup {
   font-size: 1.25em;
   font-weight: 200;
-  width: 11.2em;
+  width: 11.5em;
   height: 1.5em;
-  margin-top: 8.3em;
+  margin-top: 7.8em;
   margin-left: 6.6em;
 }
 
@@ -541,21 +588,24 @@ body {
 }
 
 .text {
-  font-size: 2.4em;
-  margin-top: 10px;
-  margin-left: 3.7em;
+  font-size: 3em;
+  margin-top: 22px;
+  margin-left: 3em;
+  line-height: 46px;
 }
 
 .text2 {
   font-size: 1.6em;
   margin-left: 5.59em;
-  margin-top: 5em;
+  margin-top: 5.3em;
+  line-height: 25px;
+  letter-spacing: 4.5px;
 }
 
 .btnLogin-popup {
   font-size: 1.25em;
   font-weight: 200;
-  width: 12.5em;
+  width: 13em;
   height: 1.5em;
   margin-top: 9.2em;
   margin-left: 7em;
@@ -620,15 +670,18 @@ body {
 }
 
 .text {
-  font-size: 3.2em;
-  margin-top: 10px;
-  margin-left: 3.7em;
+  font-size: 4em;
+  margin-top: 29px;
+  margin-left: 3em;
+  line-height: 60px;
 }
 
 .text2 {
-font-size: 2.2em;
+  font-size: 2.2em;
   margin-left: 5.39em;
-  margin-top: 4.9em;
+  margin-top: 5.3em;
+  line-height: 33.5px;
+  letter-spacing: 4px;
 }
 
 .btnLogin-popup {
@@ -648,7 +701,7 @@ font-size: 2.2em;
 
 .logRegForm {
   font-size: 2em;
-  margin-top: 11em;
+  margin-top: 56m;
   width: 34vw;
   height: 647px;
   padding-top: 131px;
@@ -665,10 +718,10 @@ font-size: 2.2em;
 }
 
 .logRegForm.active {
-  height: 1230px;
+  height: 1000px;
   margin-right: 0;
-  margin-top: 5em;
-  padding-top: 122px;
+  margin-top: 2.5em;
+  padding-top: 250px;
   width: 55vw;
   font-size: 2em;
 }
