@@ -26,19 +26,6 @@ iconClose.addEventListener('click', ()=> {
 });
 
 
-// Link popup
-const lglStuff = document.querySelector('.lglStuff');
-const linkPopup = document.querySelector('#link-popup');
-const iconClose2 = document.querySelector('.icon-close2');
-
-linkPopup.addEventListener('click', ()=> {
-	lglStuff.classList.add('active-link');
-});
-
-iconClose2.addEventListener('click', ()=> {
-	lglStuff.classList.remove('active-link');
-});
-
 // show pass
 let eye = document.getElementById("eye");
 let eye1 = document.getElementById("eye1");
