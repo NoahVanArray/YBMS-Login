@@ -3,7 +3,7 @@
   margin-left: auto; 
   margin-right: auto; 
   width: 135px; 
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .forgot-formBox {
@@ -11,12 +11,14 @@
 }
 
 .forgot-formBox h2 {
+  font-family: "Bebas Neue";
   font-size: 1.4em; 
-  margin-top: -177px; 
+  margin-top: -195px; 
   margin-bottom: -13px;
 }
 
 .forgot-formBox p {
+  font-family: "Oswald";
   font-size: 0.9em; 
   margin-bottom: -1.5em; 
   color: #066035;
@@ -31,15 +33,18 @@
 }
 
 .forgot-button {
+  font-family: "Bebas Neue";
   background: #066035; 
   width: 40%; 
-  height: 2.5em; 
+  height: 2em; 
   border: none; 
   border-radius: 6px; 
   outline: none;
   cursor: pointer; 
   color: white; 
   font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 2px;
 }
 
 @media (max-width: 500px) {

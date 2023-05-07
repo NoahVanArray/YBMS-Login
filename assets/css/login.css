@@ -30,6 +30,11 @@ body {
   letter-spacing: 2.5px;
 }
 
+input {
+  font-family: Oswald; 
+  letter-spacing: 1px;
+}
+
 .main {
   top: 20%;
   left: 45%;
