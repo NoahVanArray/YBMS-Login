@@ -362,7 +362,7 @@ body {
 }
 
 .logRegForm.active .form-box h2 {
-  margin-top: 0;
+  margin-top: -285px;
 }
 
 }
@@ -370,12 +370,6 @@ body {
 
 
 @media (min-width: 768px) {
-
-.main {
-  top: 31%;
-  left: 44%;
-  margin: -3.5em;
-}
 
 #img1 {
   margin-left: -105px;
@@ -410,7 +404,7 @@ body {
 }
 
 .logRegForm {
-  margin-top: 10px;
+  margin-top: 85px;
   width: 65vw;
   height: 517px;
   padding-top: 126px;
@@ -422,8 +416,12 @@ body {
 }
 
 .logRegForm.active .form-box.register {
-  width: 90%;
+  width: 80%;
 
+}
+
+.logRegForm.active .form-box h2 {
+    margin-top: 40px;
 }
 
 .btn {
@@ -431,9 +429,9 @@ body {
 }
 
 .logRegForm.active {
-  height: 78vh;
+  height: 90vh;
   margin-right: 0;
-  margin-top: 60.5px;
+  margin-top: 36.5px;
 }
 
 .form-box h2 {
@@ -448,7 +446,7 @@ body {
 }
 
 .half {
-  margin-right: 5.5vw;
+  margin-right: 5vw;
   margin-bottom: 0;
 }
 
@@ -459,12 +457,6 @@ body {
 }
 
 @media (min-width: 1024px) {
-
-.main {
-  top: 31%;
-  left: 43%;
-  margin: -3.5em;
-}
 
 #img1 {
   margin-left: -110px;
@@ -500,13 +492,13 @@ body {
 
 .logRegForm {
   margin-top: 95px;
-  width: 55vw;
+  width: 43vw;
   height: 517px;
   padding-top: 126px;
 }
 
 .logRegForm .form-box {
-  width: 45vw;
+  width: 30vw;
   padding: 0vw;
 }
 
@@ -515,11 +507,11 @@ body {
 }
 
 .logRegForm.active {
-  height: 46rem;
+  height: 38rem;
   margin-right: 0;
-  margin-top: 62.5px;
+  margin-top: 36px;
   padding-bottom: 10em;
-  width: 63vw;
+  width: 50vw;
 }
 
 .form-box h2 {
@@ -534,7 +526,7 @@ body {
 }
 
 .half {
-  margin-right: 5.5vw;
+  margin-right: 3vw;
   margin-bottom: 0;
 }
 
@@ -545,12 +537,6 @@ body {
 }
 
 @media (min-width: 1440px) {
-
-.main {
-  top: 20%;
-  left: 39.5%;
-  margin: 0;
-}
 
 #img1 {
   margin-left: -123px;
@@ -636,12 +622,6 @@ body {
 }
 
 @media (min-width: 2560px) {
-
-.main {
-    top: 26%;
-    left: 43%;
-    margin: 0;
-}
 
 #img1 {
   margin-left: -182px;
